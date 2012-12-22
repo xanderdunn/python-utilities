@@ -21,16 +21,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		8407855516818E1E00965B05 /* fileNameDuplicateFinder */ = {
+		8407855516818E1E00965B05 /* python-utilities */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 8407855816818E1E00965B05 /* Build configuration list for PBXLegacyTarget "fileNameDuplicateFinder" */;
+			buildConfigurationList = 8407855816818E1E00965B05 /* Build configuration list for PBXLegacyTarget "python-utilities" */;
 			buildPhases = (
 			);
 			buildToolPath = /opt/local/bin/python3.3;
 			dependencies = (
 			);
-			name = fileNameDuplicateFinder;
+			name = "python-utilities";
 			passBuildSettingsInEnvironment = 1;
 			productName = fileNameDuplicateFinder;
 		};
@@ -43,7 +43,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = ThoughtAdvances;
 			};
-			buildConfigurationList = 8407855316818E1E00965B05 /* Build configuration list for PBXProject "fileNameDuplicateFinder" */;
+			buildConfigurationList = 8407855316818E1E00965B05 /* Build configuration list for PBXProject "python-utilities" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -54,7 +54,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8407855516818E1E00965B05 /* fileNameDuplicateFinder */,
+				8407855516818E1E00965B05 /* python-utilities */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +119,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "python-utilities";
 			};
 			name = Debug;
 		};
@@ -128,14 +128,14 @@
 			buildSettings = {
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "python-utilities";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8407855316818E1E00965B05 /* Build configuration list for PBXProject "fileNameDuplicateFinder" */ = {
+		8407855316818E1E00965B05 /* Build configuration list for PBXProject "python-utilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8407855616818E1E00965B05 /* Debug */,
@@ -144,13 +144,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8407855816818E1E00965B05 /* Build configuration list for PBXLegacyTarget "fileNameDuplicateFinder" */ = {
+		8407855816818E1E00965B05 /* Build configuration list for PBXLegacyTarget "python-utilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8407855916818E1E00965B05 /* Debug */,
 				8407855A16818E1E00965B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
