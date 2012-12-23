@@ -1,0 +1,2 @@
+Various Python3 scripts
+- fileNameDuplicateFinder.py = Look for files with the same filename and different file types.  Keep the preferred file type and move the files of the secondary type.  I used this to remove JPG duplicates of my RAW files.
